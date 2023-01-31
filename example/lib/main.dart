@@ -35,9 +35,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({
-    Key? key,
-  }) : super(key: key);
+  const MyHomePage({Key? key}) : super(key: key);
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -156,6 +154,31 @@ class _MyHomePageState extends State<MyHomePage> {
                   relativeToStart: const Duration(days: 7),
                   duration: const Duration(days: 12),
                   displayName: '8',
+                ),
+                GanttRelativeEvent(
+                  relativeToStart: const Duration(days: 7),
+                  duration: const Duration(days: 12),
+                  displayName: '9',
+                ),
+                GanttRelativeEvent(
+                  relativeToStart: const Duration(days: 7),
+                  duration: const Duration(days: 12),
+                  displayName: '10',
+                ),
+                GanttRelativeEvent(
+                  relativeToStart: const Duration(days: 7),
+                  duration: const Duration(days: 12),
+                  displayName: '11',
+                ),
+                GanttRelativeEvent(
+                  relativeToStart: const Duration(days: 7),
+                  duration: const Duration(days: 12),
+                  displayName: '12',
+                ),
+                GanttRelativeEvent(
+                  relativeToStart: const Duration(days: 7),
+                  duration: const Duration(days: 12),
+                  displayName: '13',
                 ),
                 GanttAbsoluteEvent(
                   displayName: 'Absolute Date event',

@@ -23,7 +23,6 @@ class GanttChartDefaultDayHeader extends StatelessWidget {
         color: bgColor,
         border: const BorderDirectional(
           bottom: BorderSide(),
-          // end: BorderSide(),
           start: BorderSide(),
         ),
       ),
